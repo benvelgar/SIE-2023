@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="SIE">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="benito.velasco">
+      <firstName>Benito</firstName>
+      <lastName>Velasco</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="pedro.perez">
+      <firstName>Pedro</firstName>
+      <lastName>Perez</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="alberto.fernandez">
+      <firstName>Alberto</firstName>
+      <lastName>Fernandez</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Alumno">
+      <displayName>Alumno</displayName>
+    </role>
+    <role name="Profesor">
+      <displayName>Profesor</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Clase 1">
+      <displayName>Clase 1</displayName>
+    </group>
+    <group name="Clase 2">
+      <displayName>Clase 2</displayName>
+    </group>
+    <group name="Grupo 1" parentPath="/Clase 1">
+      <displayName>Grupo 1</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>alberto.fernandez</userName>
+      <roleName>Profesor</roleName>
+      <groupName>Clase 1</groupName>
+    </membership>
+    <membership>
+      <userName>benito.velasco</userName>
+      <roleName>Alumno</roleName>
+      <groupName>Grupo 1</groupName>
+      <groupParentPath>/Clase 1</groupParentPath>
+    </membership>
+    <membership>
+      <userName>pedro.perez</userName>
+      <roleName>Profesor</roleName>
+      <groupName>Clase 2</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
