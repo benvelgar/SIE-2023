@@ -7,6 +7,7 @@
                 <field type="STRING" length="255" name="segundo" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="tercero" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="cuarto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="quinto" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
