@@ -3,11 +3,13 @@
     <businessObjects>
         <businessObject qualifiedName="es.sie.model.Curso">
             <fields>
-                <field type="STRING" length="255" name="primero" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="segundo" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="tercero" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="cuarto" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="quinto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombre" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="instructor" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha_fin" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha_inicio" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="num_sesiones" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="min_asistencia" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
