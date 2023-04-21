@@ -26,6 +26,12 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="John Doe">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Alumno">
@@ -34,34 +40,44 @@
     <role name="Profesor">
       <displayName>Profesor</displayName>
     </role>
+    <role name="Director">
+      <displayName>Director</displayName>
+    </role>
   </roles>
   <groups>
-    <group name="Clase 1">
-      <displayName>Clase 1</displayName>
+    <group name="SIE">
+      <displayName>SIE</displayName>
     </group>
-    <group name="Clase 2">
-      <displayName>Clase 2</displayName>
+    <group name="Grupo1" parentPath="/SIE">
+      <displayName>Grupo1</displayName>
     </group>
-    <group name="Grupo 1" parentPath="/Clase 1">
-      <displayName>Grupo 1</displayName>
+    <group name="Grupo2" parentPath="/SIE">
+      <displayName>Grupo2</displayName>
     </group>
   </groups>
   <memberships>
     <membership>
-      <userName>alberto.fernandez</userName>
-      <roleName>Profesor</roleName>
-      <groupName>Clase 1</groupName>
-    </membership>
-    <membership>
       <userName>benito.velasco</userName>
-      <roleName>Alumno</roleName>
-      <groupName>Grupo 1</groupName>
-      <groupParentPath>/Clase 1</groupParentPath>
+      <roleName>Director</roleName>
+      <groupName>SIE</groupName>
     </membership>
     <membership>
       <userName>pedro.perez</userName>
       <roleName>Profesor</roleName>
-      <groupName>Clase 2</groupName>
+      <groupName>Grupo2</groupName>
+      <groupParentPath>/SIE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>John Doe</userName>
+      <roleName>Profesor</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/SIE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>alberto.fernandez</userName>
+      <roleName>Alumno</roleName>
+      <groupName>Grupo1</groupName>
+      <groupParentPath>/SIE</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>

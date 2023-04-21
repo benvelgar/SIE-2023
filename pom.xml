@@ -94,6 +94,26 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-database</artifactId>
+      <version>2.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mariadb.jdbc</groupId>
+      <artifactId>mariadb-java-client</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mysql</groupId>
+      <artifactId>mysql-connector-j</artifactId>
+      <version>8.0.31</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-email</artifactId>
+      <version>1.3.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.company.model</groupId>
       <artifactId>bdm-client</artifactId>
       <version>1.0.0</version>
