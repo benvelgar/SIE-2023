@@ -1,0 +1,1944 @@
+{
+  "modelVersion" : "2.3",
+  "id" : "nuevamatriculaIni",
+  "name" : "nuevamatriculaIni",
+  "lastUpdate" : 1682247749742,
+  "rows" : [
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "b7556fd2-8af2-43de-9409-341181ab061f",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "e5433262-e7bb-4dff-9811-b132bf035a42",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Matricula"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "7b517fba-09d0-4fb6-8caf-426a9324ae17",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "54595ac2-acac-49de-9754-3a10e3971dc2",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Alumno"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{nombre.user_name}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "b4cab2cd-c497-45c6-be15-9388377c72e3",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Curso"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{curso_selected.nombre}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        }
+                      },
+                      "reference" : "36538615-bb08-4d02-994a-d2f3487f6eb3",
+                      "hasValidationError" : false,
+                      "id" : "pbText"
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "container",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "repeatedCollection" : {
+                          "type" : "variable"
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "2e329968-0aa1-4644-baf8-81287bfca360",
+                      "hasValidationError" : false,
+                      "id" : "pbContainer",
+                      "description" : "Auto generate ui for business object \"es.sie.model.Curso\"",
+                      "rows" : [
+                        [
+                          {
+                            "type" : "container",
+                            "dimension" : {
+                              "xs" : 12
+                            },
+                            "propertyValues" : {
+                              "cssClasses" : {
+                                "type" : "constant",
+                                "value" : ""
+                              },
+                              "hidden" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "repeatedCollection" : {
+                                "type" : "variable"
+                              }
+                            },
+                            "reference" : "d0e92d3d-01ec-4a65-9959-63724271c1ad",
+                            "hasValidationError" : false,
+                            "id" : "pbContainer",
+                            "description" : "\"es.sie.model.Curso\" object from \"curso\" variable",
+                            "rows" : [
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "md" : 12,
+                                    "sm" : 12,
+                                    "xs" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "level" : {
+                                      "type" : "constant",
+                                      "value" : "Level 4"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "text" : {
+                                      "type" : "interpolation",
+                                      "value" : "Curso"
+                                    },
+                                    "alignment" : {
+                                      "type" : "constant",
+                                      "value" : "left"
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 12
+                                    },
+                                    "allowHTML" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    }
+                                  },
+                                  "reference" : "75ed2771-9550-4dda-b9fa-20143e4bda87",
+                                  "hasValidationError" : false,
+                                  "id" : "pbTitle",
+                                  "description" : ""
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "component",
+                                  "dimension" : {
+                                    "md" : 12,
+                                    "sm" : 12,
+                                    "xs" : 12,
+                                    "lg" : 12
+                                  },
+                                  "propertyValues" : {
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "hidden" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "allowHTML" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "headers" : {
+                                      "type" : "constant",
+                                      "value" : [
+                                        "Nombre",
+                                        "Fecha_fin",
+                                        "Fecha_inicio",
+                                        "Descripcion",
+                                        "Estado"
+                                      ]
+                                    },
+                                    "type" : {
+                                      "type" : "constant",
+                                      "value" : "Variable"
+                                    },
+                                    "apiUrl" : {
+                                      "type" : "constant",
+                                      "value" : "../API/"
+                                    },
+                                    "params" : {
+                                      "type" : "constant"
+                                    },
+                                    "content" : {
+                                      "type" : "expression",
+                                      "value" : "curso"
+                                    },
+                                    "columnsKey" : {
+                                      "type" : "constant",
+                                      "value" : [
+                                        "nombre",
+                                        "fecha_fin",
+                                        "fecha_inicio",
+                                        "descripcion",
+                                        "estado"
+                                      ]
+                                    },
+                                    "sortColumns" : {
+                                      "type" : "constant"
+                                    },
+                                    "selectedRow" : {
+                                      "type" : "variable",
+                                      "value" : "curso_selected"
+                                    },
+                                    "pageSize" : {
+                                      "type" : "constant",
+                                      "value" : 10
+                                    },
+                                    "filter" : {
+                                      "type" : "constant"
+                                    },
+                                    "striped" : {
+                                      "type" : "constant",
+                                      "value" : true
+                                    },
+                                    "condensed" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    },
+                                    "bordered" : {
+                                      "type" : "constant",
+                                      "value" : false
+                                    }
+                                  },
+                                  "reference" : "241df912-4009-4c9f-b541-ec1186b49c36",
+                                  "hasValidationError" : false,
+                                  "id" : "pbDataTable"
+                                }
+                              ],
+                              [
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "md" : 1,
+                                    "sm" : 1,
+                                    "xs" : 1,
+                                    "lg" : 1
+                                  },
+                                  "propertyValues" : {
+                                    "repeatedCollection" : {
+                                      "type" : "variable"
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!curso_selected"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 1
+                                    }
+                                  },
+                                  "reference" : "796f2174-1079-4108-aa45-72cdd0431c66",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "rows" : [
+                                    [ ]
+                                  ]
+                                },
+                                {
+                                  "type" : "container",
+                                  "dimension" : {
+                                    "md" : 11,
+                                    "sm" : 11,
+                                    "xs" : 11,
+                                    "lg" : 11
+                                  },
+                                  "propertyValues" : {
+                                    "repeatedCollection" : {
+                                      "type" : "variable"
+                                    },
+                                    "hidden" : {
+                                      "type" : "expression",
+                                      "value" : "!curso_selected"
+                                    },
+                                    "cssClasses" : {
+                                      "type" : "constant",
+                                      "value" : ""
+                                    },
+                                    "dimension" : {
+                                      "type" : "constant",
+                                      "value" : 11
+                                    }
+                                  },
+                                  "reference" : "cd3101b8-94df-42bc-aef9-26578297eab4",
+                                  "hasValidationError" : false,
+                                  "id" : "pbContainer",
+                                  "description" : "Display \"Curso\" details when a line is selected in the table above",
+                                  "rows" : [
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.nombre"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Nombre"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.nombre"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "4353b427-139b-4ad9-bff1-a5c2c73e0a04",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.instructor"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Instructor"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.instructor"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "minLength" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "maxLength" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "min" : {
+                                            "type" : "constant"
+                                          },
+                                          "max" : {
+                                            "type" : "constant"
+                                          },
+                                          "step" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          }
+                                        },
+                                        "reference" : "17ff681f-ca02-40e6-b34a-6378b7ea0bc8",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "showNow" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.fecha_fin"
+                                          },
+                                          "inlineInput" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "dateFormat" : {
+                                            "type" : "constant",
+                                            "value" : "MM/dd/yyyy"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Fecha_fin"
+                                          },
+                                          "type" : {
+                                            "type" : "constant"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "todayLabel" : {
+                                            "type" : "constant",
+                                            "value" : "Today"
+                                          },
+                                          "timePlaceholder" : {
+                                            "type" : "constant",
+                                            "value" : "Enter a time (h:mm:ss a)"
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "showToday" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "timeFormat" : {
+                                            "type" : "constant",
+                                            "value" : "h:mm:ss a"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant",
+                                            "value" : "Enter a date (mm/dd/yyyy)"
+                                          },
+                                          "nowLabel" : {
+                                            "type" : "constant",
+                                            "value" : "Now"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.fecha_fin"
+                                          },
+                                          "withTimeZone" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "813f2a5f-d569-47f4-929d-21bde4b77fa0",
+                                        "hasValidationError" : false,
+                                        "id" : "pbDateTimePicker",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "showNow" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.fecha_inicio"
+                                          },
+                                          "inlineInput" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "dateFormat" : {
+                                            "type" : "constant",
+                                            "value" : "MM/dd/yyyy"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Fecha_inicio"
+                                          },
+                                          "type" : {
+                                            "type" : "constant"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "todayLabel" : {
+                                            "type" : "constant",
+                                            "value" : "Today"
+                                          },
+                                          "timePlaceholder" : {
+                                            "type" : "constant",
+                                            "value" : "Enter a time (h:mm:ss a)"
+                                          },
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "showToday" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "timeFormat" : {
+                                            "type" : "constant",
+                                            "value" : "h:mm:ss a"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant",
+                                            "value" : "Enter a date (mm/dd/yyyy)"
+                                          },
+                                          "nowLabel" : {
+                                            "type" : "constant",
+                                            "value" : "Now"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.fecha_inicio"
+                                          },
+                                          "withTimeZone" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "de5f8cef-45c7-470c-9101-946593ae931c",
+                                        "hasValidationError" : false,
+                                        "id" : "pbDateTimePicker",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.descripcion"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Descripcion"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.descripcion"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "fa83ff99-2615-41de-801e-6fafe0b8714c",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.num_sesiones"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Num_sesiones"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "number"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.num_sesiones"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "d41fe94e-4068-44c8-931d-dce89927439c",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.min_asistencia"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Min_asistencia"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "number"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.min_asistencia"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "7fddefc4-2831-4c05-aa85-c22677ff93fc",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.memoria"
+                                          },
+                                          "labelPosition" : {
+                                            "type" : "constant",
+                                            "value" : "top"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "labelWidth" : {
+                                            "type" : "constant",
+                                            "value" : 1
+                                          },
+                                          "readOnly" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Memoria"
+                                          },
+                                          "placeholder" : {
+                                            "type" : "constant"
+                                          },
+                                          "type" : {
+                                            "type" : "constant",
+                                            "value" : "text"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.memoria"
+                                          },
+                                          "required" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          }
+                                        },
+                                        "reference" : "0891d962-d446-4a43-beae-bda5f5a1a0ba",
+                                        "hasValidationError" : false,
+                                        "id" : "pbInput",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "component",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "labelHidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "hidden" : {
+                                            "type" : "expression",
+                                            "value" : "!curso_selected.estado"
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "disabled" : {
+                                            "type" : "constant",
+                                            "value" : true
+                                          },
+                                          "label" : {
+                                            "type" : "interpolation",
+                                            "value" : "Estado"
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          },
+                                          "value" : {
+                                            "type" : "variable",
+                                            "value" : "curso_selected.estado"
+                                          }
+                                        },
+                                        "reference" : "0f4ac6c6-0383-4f31-9ed4-201098291c1d",
+                                        "hasValidationError" : false,
+                                        "id" : "pbCheckbox",
+                                        "description" : ""
+                                      }
+                                    ],
+                                    [
+                                      {
+                                        "type" : "container",
+                                        "dimension" : {
+                                          "md" : 12,
+                                          "sm" : 12,
+                                          "xs" : 12,
+                                          "lg" : 12
+                                        },
+                                        "propertyValues" : {
+                                          "repeatedCollection" : {
+                                            "type" : "variable"
+                                          },
+                                          "hidden" : {
+                                            "type" : "constant",
+                                            "value" : false
+                                          },
+                                          "cssClasses" : {
+                                            "type" : "constant",
+                                            "value" : ""
+                                          },
+                                          "dimension" : {
+                                            "type" : "constant",
+                                            "value" : 12
+                                          }
+                                        },
+                                        "reference" : "71c14a4e-8698-4746-b9a6-90d370f44f8c",
+                                        "hasValidationError" : false,
+                                        "id" : "pbContainer",
+                                        "description" : "Auto generate ui for business object \"es.sie.model.Matricula\"",
+                                        "rows" : [
+                                          [
+                                            {
+                                              "type" : "container",
+                                              "dimension" : {
+                                                "xs" : 12
+                                              },
+                                              "propertyValues" : { },
+                                              "reference" : "7492ebf4-9924-4a04-8641-49b7a9efc7f6",
+                                              "hasValidationError" : false,
+                                              "id" : "pbContainer",
+                                              "description" : "\"es.sie.model.Matricula\" object from \"matricula_1\" variable",
+                                              "rows" : [
+                                                [
+                                                  {
+                                                    "type" : "component",
+                                                    "dimension" : {
+                                                      "md" : 12,
+                                                      "sm" : 12,
+                                                      "xs" : 12,
+                                                      "lg" : 12
+                                                    },
+                                                    "propertyValues" : {
+                                                      "hidden" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "level" : {
+                                                        "type" : "constant",
+                                                        "value" : "Level 4"
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "text" : {
+                                                        "type" : "interpolation",
+                                                        "value" : "Matricula"
+                                                      },
+                                                      "alignment" : {
+                                                        "type" : "constant",
+                                                        "value" : "left"
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 12
+                                                      }
+                                                    },
+                                                    "reference" : "d26cbc60-ccf4-4498-acb3-85c195af1e39",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbTitle",
+                                                    "description" : ""
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "type" : "component",
+                                                    "dimension" : {
+                                                      "md" : 12,
+                                                      "sm" : 12,
+                                                      "xs" : 12,
+                                                      "lg" : 12
+                                                    },
+                                                    "propertyValues" : {
+                                                      "headers" : {
+                                                        "type" : "constant",
+                                                        "value" : [
+                                                          "Alumno",
+                                                          "Curso"
+                                                        ]
+                                                      },
+                                                      "allowHtml" : {
+                                                        "type" : "constant",
+                                                        "value" : true
+                                                      },
+                                                      "hidden" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "condensed" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "bordered" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "selectedRow" : {
+                                                        "type" : "variable",
+                                                        "value" : "matricula_1_selected"
+                                                      },
+                                                      "columnsKey" : {
+                                                        "type" : "constant",
+                                                        "value" : [
+                                                          "alumno",
+                                                          "curso"
+                                                        ]
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 12
+                                                      },
+                                                      "content" : {
+                                                        "type" : "expression",
+                                                        "value" : "matricula_1"
+                                                      },
+                                                      "zebraStriping" : {
+                                                        "type" : "constant",
+                                                        "value" : true
+                                                      },
+                                                      "allowHTML" : {
+                                                        "type" : "constant",
+                                                        "value" : false
+                                                      },
+                                                      "striped" : {
+                                                        "type" : "constant",
+                                                        "value" : true
+                                                      }
+                                                    },
+                                                    "reference" : "8e1a1066-39d7-4481-a0c4-1a078edc7621",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbTable",
+                                                    "description" : ""
+                                                  }
+                                                ],
+                                                [
+                                                  {
+                                                    "type" : "container",
+                                                    "dimension" : {
+                                                      "md" : 1,
+                                                      "sm" : 1,
+                                                      "xs" : 1,
+                                                      "lg" : 1
+                                                    },
+                                                    "propertyValues" : {
+                                                      "repeatedCollection" : {
+                                                        "type" : "variable"
+                                                      },
+                                                      "hidden" : {
+                                                        "type" : "expression",
+                                                        "value" : "!matricula_1_selected"
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 1
+                                                      }
+                                                    },
+                                                    "reference" : "ba74dce4-a166-4cc4-824d-49872872ae4c",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbContainer",
+                                                    "rows" : [
+                                                      [ ]
+                                                    ]
+                                                  },
+                                                  {
+                                                    "type" : "container",
+                                                    "dimension" : {
+                                                      "md" : 11,
+                                                      "sm" : 11,
+                                                      "xs" : 11,
+                                                      "lg" : 11
+                                                    },
+                                                    "propertyValues" : {
+                                                      "repeatedCollection" : {
+                                                        "type" : "variable"
+                                                      },
+                                                      "hidden" : {
+                                                        "type" : "expression",
+                                                        "value" : "!matricula_1_selected"
+                                                      },
+                                                      "cssClasses" : {
+                                                        "type" : "constant",
+                                                        "value" : ""
+                                                      },
+                                                      "dimension" : {
+                                                        "type" : "constant",
+                                                        "value" : 11
+                                                      }
+                                                    },
+                                                    "reference" : "2edd9d62-11c3-4e3f-9e65-0f0c064f277e",
+                                                    "hasValidationError" : false,
+                                                    "id" : "pbContainer",
+                                                    "description" : "Display \"Matricula\" details when a line is selected in the table above",
+                                                    "rows" : [
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "labelHidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "expression",
+                                                              "value" : "!matricula_1_selected.alumno"
+                                                            },
+                                                            "labelPosition" : {
+                                                              "type" : "constant",
+                                                              "value" : "top"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "labelWidth" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            },
+                                                            "readOnly" : {
+                                                              "type" : "constant",
+                                                              "value" : true
+                                                            },
+                                                            "label" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Alumno"
+                                                            },
+                                                            "placeholder" : {
+                                                              "type" : "constant"
+                                                            },
+                                                            "type" : {
+                                                              "type" : "constant",
+                                                              "value" : "text"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            },
+                                                            "value" : {
+                                                              "type" : "variable",
+                                                              "value" : "matricula_1_selected.alumno"
+                                                            },
+                                                            "required" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            }
+                                                          },
+                                                          "reference" : "3dec389d-f343-4854-8533-0e6aec3df645",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbInput",
+                                                          "description" : ""
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "labelHidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "expression",
+                                                              "value" : "!matricula_1_selected.curso"
+                                                            },
+                                                            "labelPosition" : {
+                                                              "type" : "constant",
+                                                              "value" : "top"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "labelWidth" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            },
+                                                            "readOnly" : {
+                                                              "type" : "constant",
+                                                              "value" : true
+                                                            },
+                                                            "label" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Curso"
+                                                            },
+                                                            "placeholder" : {
+                                                              "type" : "constant"
+                                                            },
+                                                            "type" : {
+                                                              "type" : "constant",
+                                                              "value" : "text"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            },
+                                                            "value" : {
+                                                              "type" : "variable",
+                                                              "value" : "matricula_1_selected.curso"
+                                                            },
+                                                            "required" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            }
+                                                          },
+                                                          "reference" : "c62a53c9-f9a9-4f39-9878-12513e5e5edb",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbInput",
+                                                          "description" : ""
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "labelHidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "expression",
+                                                              "value" : "!matricula_1_selected.calificacion"
+                                                            },
+                                                            "labelPosition" : {
+                                                              "type" : "constant",
+                                                              "value" : "top"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "labelWidth" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            },
+                                                            "readOnly" : {
+                                                              "type" : "constant",
+                                                              "value" : true
+                                                            },
+                                                            "label" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Calificacion"
+                                                            },
+                                                            "placeholder" : {
+                                                              "type" : "constant"
+                                                            },
+                                                            "type" : {
+                                                              "type" : "constant",
+                                                              "value" : "number"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            },
+                                                            "value" : {
+                                                              "type" : "variable",
+                                                              "value" : "matricula_1_selected.calificacion"
+                                                            },
+                                                            "required" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            }
+                                                          },
+                                                          "reference" : "7c403d9a-a98a-4fd1-9545-43979e2e6aba",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbInput",
+                                                          "description" : ""
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "labelHidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "expression",
+                                                              "value" : "!matricula_1_selected.asistencia"
+                                                            },
+                                                            "labelPosition" : {
+                                                              "type" : "constant",
+                                                              "value" : "top"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "labelWidth" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            },
+                                                            "readOnly" : {
+                                                              "type" : "constant",
+                                                              "value" : true
+                                                            },
+                                                            "label" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Asistencia"
+                                                            },
+                                                            "placeholder" : {
+                                                              "type" : "constant"
+                                                            },
+                                                            "type" : {
+                                                              "type" : "constant",
+                                                              "value" : "number"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            },
+                                                            "value" : {
+                                                              "type" : "variable",
+                                                              "value" : "matricula_1_selected.asistencia"
+                                                            },
+                                                            "required" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            }
+                                                          },
+                                                          "reference" : "df6f82a7-13e6-4983-bd5f-ecb115f839c0",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbInput",
+                                                          "description" : ""
+                                                        }
+                                                      ],
+                                                      [
+                                                        {
+                                                          "type" : "component",
+                                                          "dimension" : {
+                                                            "md" : 12,
+                                                            "sm" : 12,
+                                                            "xs" : 12,
+                                                            "lg" : 12
+                                                          },
+                                                          "propertyValues" : {
+                                                            "labelHidden" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            },
+                                                            "hidden" : {
+                                                              "type" : "expression",
+                                                              "value" : "!matricula_1_selected.estado"
+                                                            },
+                                                            "labelPosition" : {
+                                                              "type" : "constant",
+                                                              "value" : "top"
+                                                            },
+                                                            "cssClasses" : {
+                                                              "type" : "constant",
+                                                              "value" : ""
+                                                            },
+                                                            "labelWidth" : {
+                                                              "type" : "constant",
+                                                              "value" : 1
+                                                            },
+                                                            "readOnly" : {
+                                                              "type" : "constant",
+                                                              "value" : true
+                                                            },
+                                                            "label" : {
+                                                              "type" : "interpolation",
+                                                              "value" : "Estado"
+                                                            },
+                                                            "placeholder" : {
+                                                              "type" : "constant"
+                                                            },
+                                                            "type" : {
+                                                              "type" : "constant",
+                                                              "value" : "text"
+                                                            },
+                                                            "dimension" : {
+                                                              "type" : "constant",
+                                                              "value" : 12
+                                                            },
+                                                            "value" : {
+                                                              "type" : "variable",
+                                                              "value" : "matricula_1_selected.estado"
+                                                            },
+                                                            "required" : {
+                                                              "type" : "constant",
+                                                              "value" : false
+                                                            }
+                                                          },
+                                                          "reference" : "76c2522c-e800-4919-8691-fe0410cb6c01",
+                                                          "hasValidationError" : false,
+                                                          "id" : "pbInput",
+                                                          "description" : ""
+                                                        }
+                                                      ]
+                                                    ]
+                                                  }
+                                                ]
+                                              ]
+                                            }
+                                          ]
+                                        ]
+                                      }
+                                    ]
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Start process"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "56d6f07a-92e3-48ec-a9da-402d7bbb8bb8",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "61934848-39ef-4f76-8342-97f1fe5d22ce",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "a0dd812a-141d-4102-9cfd-22ab567de502",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "8934c3ab-fa44-4a8a-b1f4-89a4f9dce785",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"matriculaInput\" : {\r",
+        "    \"alumno\" : \"\",\r",
+        "    \"curso\" : \"\"\r",
+        "  }\r",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "$data.formInput.matriculaInput.alumno = $data.nombre.user_name;",
+        "$data.formInput.matriculaInput.curso = $data.curso_selected.nombre;",
+        "",
+        "return {",
+        "\tmatriculaInput: $data.formInput.matriculaInput",
+        "};"
+      ],
+      "exposed" : false
+    },
+    "curso" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [es.sie.model.Curso]\",\"businessObjectName\":\"Curso\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"es.sie.model.Curso\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "curso_matriculas" : {
+      "type" : "url",
+      "value" : [
+        "{{curso_selected|lazyRef:'matriculas'}}"
+      ],
+      "exposed" : false
+    },
+    "curso_matriculas_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "curso_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "nombre" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/1"
+      ],
+      "exposed" : false
+    },
+    "matricula" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [es.sie.model.Matricula]\",\"businessObjectName\":\"Matricula\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"es.sie.model.Matricula\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "matricula_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    },
+    "matricula_1" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"find [es.sie.model.Matricula]\",\"businessObjectName\":\"Matricula\",\"query\":{\"name\":\"find\",\"displayName\":\"find\"},\"id\":\"es.sie.model.Matricula\",\"filters\":[],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "matricula_1_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "577ec21a-0212-46bf-9665-720249549f07",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

@@ -6,7 +6,9 @@
       <firstName>Benito</firstName>
       <lastName>Velasco</lastName>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>benito@sie.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -14,7 +16,9 @@
       <firstName>Pedro</firstName>
       <lastName>Perez</lastName>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>pedro@sie.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -22,13 +26,37 @@
       <firstName>Alberto</firstName>
       <lastName>Fernandez</lastName>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>alberto@sie.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
     <user userName="John Doe">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>john@sie.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="pepe.garcia">
+      <firstName>Pepe</firstName>
+      <lastName>garcia</lastName>
+      <personalData/>
+      <professionalData>
+        <email>pepe@sie.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="manuel.perez">
+      <firstName>Manuel</firstName>
+      <lastName>Perez</lastName>
+      <personalData/>
+      <professionalData>
+        <email>manuel@sie.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -42,6 +70,9 @@
     </role>
     <role name="Director">
       <displayName>Director</displayName>
+    </role>
+    <role name="validador">
+      <displayName>Rol1</displayName>
     </role>
   </roles>
   <groups>
@@ -78,6 +109,16 @@
       <roleName>Alumno</roleName>
       <groupName>Grupo1</groupName>
       <groupParentPath>/SIE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>pepe.garcia</userName>
+      <roleName>Alumno</roleName>
+      <groupName>SIE</groupName>
+    </membership>
+    <membership>
+      <userName>manuel.perez</userName>
+      <roleName>validador</roleName>
+      <groupName>SIE</groupName>
     </membership>
   </memberships>
 </organization:Organization>
