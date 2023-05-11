@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.15.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Producto">
+            <fields>
+                <field type="TEXT" length="255" name="nombreProducto" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="cantidadProducto" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="disponibilidad" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="existencia" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
