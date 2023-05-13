@@ -310,7 +310,7 @@
       <connections xmi:type="process:SequenceFlow" xmi:id="_I3SGwO_iEe2tWNZnSlLkpw" name="SI" target="_DbnvUO_iEe2tWNZnSlLkpw" source="_BHRuIO_iEe2tWNZnSlLkpw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_I3SGwe_iEe2tWNZnSlLkpw"/>
         <condition xmi:type="expression:Expression" xmi:id="_I3St0O_iEe2tWNZnSlLkpw" name="newScript()" content="producto.existencia" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_gLy1cO_qEe2_LcSsY2jZoQ" name="producto" dataType="_3bcmZO_aEe2tWNZnSlLkpw" className="com.company.model.Producto"/>
+          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_jdDdoPFlEe2_LcSsY2jZoQ" name="producto" dataType="_3bcmZO_aEe2tWNZnSlLkpw" className="com.company.model.Producto"/>
         </condition>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_PLVewO_iEe2tWNZnSlLkpw" name="NO" target="__y58MO_hEe2tWNZnSlLkpw" source="_BHRuIO_iEe2tWNZnSlLkpw" isDefault="true">
